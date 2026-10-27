@@ -1,0 +1,28 @@
+# ---------------- 绝对不能提交 ----------------
+
+# 浏览器调试 profile：含 Cookies / Login Data / History / Web Data
+.chrome-profile/
+
+# 从官方启动器采集的原始资料：
+#   - 版权：官方 CSS / DOM / 2560x1440 原画 / 图标
+#   - 体积：约 291 MB
+reference/
+
+# 增量更新模拟的生成产物（约 44 MB，可用 tools/sim 重新生成）
+update-sim/
+
+# ---------------- 常规忽略 ----------------
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+
+# 编辑器
+.vscode/
+.idea/
+
+# 本地预览产物
+reference/renders/
